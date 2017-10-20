@@ -1,0 +1,16 @@
+echo 'Hello World!';
+print ("<p>This is a test</p>");
+$myVar = "Cats";
+print ("<p>These are my " . $myVar . ".</p>");
+echo "<p>", $myVar, " are funny!</p>";
+printf("<p>My name is %s.  I'm %d years old and PI is equal to %.4f</p>", "Mike", 58, 3.14159);
+$myFloat = 3.1415978;
+echo "<p>The value of Pi is: " . number_format($myFloat,4) . ".</p>";
+
+define('aConstantValue', 1234567);
+echo "<p>My constant variable value is: " . aConstantValue . ".</p>";
+
+$strNum = "28";
+echo "Mult 28 X 3.14159 is: " . $strNum * $myFloat . "<br>";
+
+echo "Test: " . (int) $myFloat;
