@@ -13,4 +13,6 @@ echo "<p>My constant variable value is: " . aConstantValue . ".</p>";
 $strNum = "28";
 echo "Mult 28 X 3.14159 is: " . $strNum * $myFloat . "<br>";
 
-echo "Test: " . (int) $myFloat;
+echo "Test: " . (int) $myFloat . "<br>";
+$myTest = is_string($myVar);
+echo "Right here: " . $myTest . " < Should return a 1. <br>";
